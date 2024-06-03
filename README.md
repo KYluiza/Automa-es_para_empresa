@@ -57,7 +57,7 @@ def selecionar_data_padro(url):
 
         # Inserir a data padrão no campo "from"
         pyautogui.click(66, 808, duration=1)
-        pyautogui.write("07/01/2022")
+        pyautogui.write("00/00/0000")
 
         # Subir a tela para centralizar
         pyautogui.scroll(400)
@@ -103,8 +103,8 @@ def pesquisar_requisicoes(url, search_text):
         pyautogui.click(385, 685, duration=1)
         pyautogui.click(295, 763, duration=1)
         pyautogui.click(125, 748, duration=1)
-        pyautogui.write("01/01/2019")
-        pyautogui.write("12/31/2024")
+        pyautogui.write("00/00/0000")
+        pyautogui.write("00/00/0000")
         pyautogui.click(430, 682, duration=1)
         pyautogui.click(1786, 812, duration=1)
 
@@ -155,8 +155,8 @@ def detalhes_ofertas(url, search_text):
         pyautogui.scroll(500)
         pyautogui.click(295, 763, duration=1)
         pyautogui.click(125, 748, duration=1)
-        pyautogui.write("01/01/2019")
-        pyautogui.write("12/31/2024")
+        pyautogui.write("00/00/0000")
+        pyautogui.write("00/00/0000")
         pyautogui.click(430, 682, duration=1)
         pyautogui.click(642, 679, duration=1)
         pyautogui.click(1786, 812, duration=1)
@@ -208,8 +208,8 @@ def aberturas(url, search_text):
         pyautogui.scroll(900)
         pyautogui.click(295, 763, duration=1)
         pyautogui.click(125, 748, duration=1)
-        pyautogui.write("01/01/2019")
-        pyautogui.write("12/31/2024")
+        pyautogui.write("00/00/0000")
+        pyautogui.write("00/00/0000")
         pyautogui.click(1772, 817, duration=1)
 
         # Salvar e exportar relatório
