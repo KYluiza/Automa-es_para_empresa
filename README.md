@@ -1,14 +1,17 @@
 # Automaces_para_empresa
 #BackUp e atualização de planilhas
+
 import pyautogui
 import time
 import subprocess
 from datetime import date
 
 # Tempo de espera para abertura de sites
+
 tempo_abrir_sites = 10
 
 # Pausa entre ações do pyautogui
+
 pyautogui.PAUSE = 4
 
 def abrir_navegador(url):
